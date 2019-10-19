@@ -80,19 +80,20 @@ input{
                         
                         
                         font-size: 1.2em;
-                  
+                        
+                        &:hover{
+                            background: $main;
+                            color:#000;
+                            transition: all 0.5s;
+
+                        }
 
                         a{
-                            padding: 27px 20px;
+                            padding: 30px 20px;
                             color:#000;
                             text-decoration: none;
 
-                            &:hover{
-                                background: $main;
-                                color:#000;
-                                transition: all 0.5s;
-    
-                            }
+                            
 
                             
                         }
