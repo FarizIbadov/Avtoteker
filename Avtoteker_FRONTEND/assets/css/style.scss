@@ -58,9 +58,9 @@ input{
         background: $gray;
         
         .row{
-
+            
             .col-md-3{
-                padding: 10px;
+                
                 a{    
                     img{
                         width:50%;
@@ -70,7 +70,7 @@ input{
 
 
             #NavBar{
-                padding: 35px 20px;
+                
                 ul{
                     padding: 0;
                     display: flex;
@@ -82,19 +82,19 @@ input{
                         
                         font-size: 1.2em;
                         
-                        &:hover{
-                            background: $main;
-                            color:#000;
-                            transition: all 0.5s;
-                            
-                        }
+                        
 
                         a{
-                            padding: 35px 20px;
+                            
                             color:#000;
                             text-decoration: none;
 
-                            
+                            &:hover{
+                                background: $main;
+                                color:#000;
+                                transition: all 0.5s;
+                                
+                            }
 
                             
                         }
