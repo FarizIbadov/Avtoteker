@@ -12,10 +12,6 @@ input {
   margin: 0;
 }
 
-#header {
-  display: none;
-}
-
 #header #Head .row {
   padding: 10px;
   background: #ffbb00;
