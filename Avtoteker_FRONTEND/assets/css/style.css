@@ -72,6 +72,7 @@ input {
 
 #header #head .row #NavBar ul li a:hover {
   background: #ffbb00;
+  color: #000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -131,7 +132,8 @@ input {
 }
 
 #main #result .row .Drp .btn-group .dropdown-menu input {
-  margin-left: 6%;
+  width: 80%;
+  margin-left: 10%;
   border-radius: 5px;
 }
 

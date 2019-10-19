@@ -82,7 +82,7 @@ input{
 
                             &:hover{
                                 background: $main;
-                                
+                                color:#000;
                                 transition: all 0.5s;
     
                             }
@@ -178,7 +178,8 @@ input{
                 .btn-group{
                     .dropdown-menu{
                         input{
-                            margin-left:6%;
+                            width:80%;
+                            margin-left:10%;
                             border-radius: 5px;
                         }
                     }
