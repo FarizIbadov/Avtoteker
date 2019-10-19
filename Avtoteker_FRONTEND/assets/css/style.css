@@ -197,10 +197,17 @@ input {
   border-radius: 20px;
 }
 
-#footer .row .col-md-2 input {
+#footer .row .col-md-2 input[type=text],
+#footer .row .col-md-2 input[type=email] {
   margin: 3px;
   padding: 5px;
   border-radius: 10px;
+}
+
+#footer .row .col-md-2 span {
+  font-size: 0.83em;
+  position: relative;
+  right: 1%;
 }
 
 #footer .row .col-md-2 button {

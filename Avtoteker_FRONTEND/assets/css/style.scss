@@ -269,10 +269,20 @@ input{
 
 
 
-            input{
+            input[type=text],
+            input[type=email]{
                 margin:3px;
                 padding: 5px;
                 border-radius: 10px;
+            }
+
+            
+
+            
+            span{
+                font-size:0.83em;
+                position: relative;
+                right:1%;
             }
 
             button{
