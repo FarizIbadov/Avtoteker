@@ -241,6 +241,27 @@ input{
                     width:50% ;
                 }
             }
+
+            hr{
+                border:2px solid $main;
+                width: 15%;
+            }
+
+            p{
+                font-size:0.8em;
+            }
+
+            div{
+                img{
+                    width:50px;
+                    
+                    border-radius: 20px;
+                }
+
+                img:last-child(){
+                    
+                }
+            }
         }
     }
 

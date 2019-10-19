@@ -179,6 +179,20 @@ input {
   width: 50%;
 }
 
+#footer .row .col-md-3 hr {
+  border: 2px solid #ffbb00;
+  width: 15%;
+}
+
+#footer .row .col-md-3 p {
+  font-size: 0.8em;
+}
+
+#footer .row .col-md-3 div img {
+  width: 50px;
+  border-radius: 20px;
+}
+
 #footer #copy #copyright {
   padding: 20px;
 }
