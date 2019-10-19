@@ -56,7 +56,7 @@ input{
 
         .row{
 
-            #logo{
+            .logo{
                 padding: 10px;
                 a{    
                     img{
@@ -232,11 +232,11 @@ input{
     background: $gray;
 
     .row{
-        #logo1{
-            padding: 20px;
+        .logo1{
+            padding: 10px;
             a{
                 img{
-                    
+                    padding: 10px;
                     width:50%;
                 }
             }
