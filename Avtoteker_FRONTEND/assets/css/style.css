@@ -132,7 +132,7 @@ input {
 }
 
 #main #result .row .col-md-1 .btn-group {
-  width: 215px;
+  width: 215px !important;
 }
 
 #main #result .row .col-md-1 .btn-group .dropdown-menu input {
