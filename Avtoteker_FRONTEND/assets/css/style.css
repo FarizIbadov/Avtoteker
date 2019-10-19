@@ -131,10 +131,6 @@ input {
   color: #ffbb00;
 }
 
-#main #result .row .Drp .btn-group {
-  width: 215px !important;
-}
-
 #main #result .row .Drp .btn-group .dropdown-menu input {
   width: 70%;
   margin-left: 15%;
