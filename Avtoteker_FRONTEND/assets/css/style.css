@@ -12,6 +12,10 @@ input {
   margin: 0;
 }
 
+#header {
+  display: none;
+}
+
 #header #Head .row {
   padding: 10px;
   background: #ffbb00;
@@ -47,18 +51,15 @@ input {
   background: #dbd9d9;
 }
 
-#header #head display:none
-.row .col-md-3 {
+#header #head .row .col-md-3 {
   padding: 10px;
 }
 
-#header #head display:none
-.row .col-md-3 a img {
+#header #head .row .col-md-3 a img {
   width: 50%;
 }
 
-#header #head display:none
-.row #NavBar ul {
+#header #head .row #NavBar ul {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,21 +67,18 @@ input {
   margin: 25px 0 0 0;
 }
 
-#header #head display:none
-.row #NavBar ul li {
+#header #head .row #NavBar ul li {
   list-style: none;
   font-size: 1.2em;
 }
 
-#header #head display:none
-.row #NavBar ul li a {
+#header #head .row #NavBar ul li a {
   padding: 27px 20px;
   color: #000;
   text-decoration: none;
 }
 
-#header #head display:none
-.row #NavBar ul li a:hover {
+#header #head .row #NavBar ul li a:hover {
   background: #ffbb00;
   color: #000;
   -webkit-transition: all 0.5s;
