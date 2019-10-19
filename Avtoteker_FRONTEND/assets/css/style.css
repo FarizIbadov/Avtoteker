@@ -45,6 +45,7 @@ input {
 
 #header #head {
   background: #dbd9d9;
+  display: none;
 }
 
 #header #head .row .col-md-3 {
