@@ -43,11 +43,11 @@ input {
   background: #dbd9d9;
 }
 
-#header #head .row .logo {
+#header #head .row .col-md-3 {
   padding: 10px;
 }
 
-#header #head .row .logo a img {
+#header #head .row .col-md-3 a img {
   width: 50%;
 }
 
@@ -167,11 +167,11 @@ input {
   background: #dbd9d9;
 }
 
-#footer .row .logo1 {
+#footer .row .col-md-3 {
   padding: 10px;
 }
 
-#footer .row .logo1 a img {
+#footer .row .col-md-3 a img {
   padding: 10px;
   width: 50%;
 }
