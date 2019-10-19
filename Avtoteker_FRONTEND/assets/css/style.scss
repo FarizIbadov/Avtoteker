@@ -5,6 +5,9 @@ input{
     outline: none;
 }
 
+.active{
+    display:block !important;
+}
 
 
 *{
@@ -168,7 +171,7 @@ input{
     }
 
     #result{
-        
+        display: none;
         .row{
             background: $gray;
             .col-md-3{
@@ -226,6 +229,14 @@ input{
                 }
             }
         }
+    }
+
+    #Other{
+        display: none;
+        background: $gray;
+        padding:10px;
+        border-radius: 0 0 10px 10px;
+        text-align: center; 
     }
 }
 

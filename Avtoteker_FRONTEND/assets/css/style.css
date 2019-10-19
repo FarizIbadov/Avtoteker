@@ -2,6 +2,10 @@ input {
   outline: none;
 }
 
+.active {
+  display: block !important;
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
   padding: 0;
@@ -122,6 +126,10 @@ input {
   color: #000;
 }
 
+#main #result {
+  display: none;
+}
+
 #main #result .row {
   background: #dbd9d9;
 }
@@ -169,6 +177,14 @@ input {
 
 #main #result #afterpart div a:last-child {
   text-decoration: underline;
+}
+
+#main #Other {
+  display: none;
+  background: #dbd9d9;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
 }
 
 #footer {
