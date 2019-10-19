@@ -48,7 +48,7 @@ input {
 }
 
 #header #head .row .col-md-3 a img {
-  width: 50%;
+  width: 40%;
 }
 
 #header #head .row #NavBar ul {
@@ -173,7 +173,7 @@ input {
 
 #footer .row .col-md-3 a img {
   padding: 10px;
-  width: 50%;
+  width: 40%;
 }
 
 #footer #copy #copyright {
