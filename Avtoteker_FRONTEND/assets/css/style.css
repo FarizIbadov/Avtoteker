@@ -45,18 +45,20 @@ input {
 
 #header #head {
   background: #dbd9d9;
-  display: none;
 }
 
-#header #head .row .col-md-3 {
+#header #head display:none
+.row .col-md-3 {
   padding: 10px;
 }
 
-#header #head .row .col-md-3 a img {
+#header #head display:none
+.row .col-md-3 a img {
   width: 50%;
 }
 
-#header #head .row #NavBar ul {
+#header #head display:none
+.row #NavBar ul {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,18 +66,21 @@ input {
   margin: 25px 0 0 0;
 }
 
-#header #head .row #NavBar ul li {
+#header #head display:none
+.row #NavBar ul li {
   list-style: none;
   font-size: 1.2em;
 }
 
-#header #head .row #NavBar ul li a {
+#header #head display:none
+.row #NavBar ul li a {
   padding: 27px 20px;
   color: #000;
   text-decoration: none;
 }
 
-#header #head .row #NavBar ul li a:hover {
+#header #head display:none
+.row #NavBar ul li a:hover {
   background: #ffbb00;
   color: #000;
   -webkit-transition: all 0.5s;
