@@ -168,11 +168,10 @@ input {
 }
 
 #footer .row #logo1 {
-  padding: 10px;
+  padding: 20px;
 }
 
 #footer .row #logo1 a img {
-  padding-top: 10px;
   width: 50%;
 }
 
