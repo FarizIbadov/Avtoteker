@@ -228,7 +228,13 @@ input {
   transition: all 0.5s;
 }
 
+#footer #copy {
+  border-top: 1px solid #fff;
+  background: #313131;
+}
+
 #footer #copy #copyright {
+  color: #fff;
   padding: 20px;
 }
 

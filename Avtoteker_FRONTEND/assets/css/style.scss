@@ -304,8 +304,10 @@ input{
     }
 
     #copy{
-        
+        border-top:1px solid #fff;
+        background: #313131;
         #copyright{
+            color:#fff;
             padding:20px;
             span{
                 text-decoration: underline;
