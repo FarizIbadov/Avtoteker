@@ -273,22 +273,14 @@ input{
                 ul{
                     li{
                         margin:3px;
-                        list-style:none;
+                        
                         
                         a{
                             color: #000;
 
-                            &:hover{
-                                text-decoration-color: $main;
-                            }
+                           
 
-                            &::before{
-                                content: '•';
-                                color:$main;
-                                font-size:1.5em;
-                                position: relative;
-                                right:3px;
-                            }
+                            
                         }
 
                         

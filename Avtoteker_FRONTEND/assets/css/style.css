@@ -1,4 +1,3 @@
-@charset "UTF-8";
 input {
   outline: none;
 }
@@ -210,24 +209,10 @@ input {
 
 #footer .row .col-md-2 #more ul li {
   margin: 3px;
-  list-style: none;
 }
 
 #footer .row .col-md-2 #more ul li a {
   color: #000;
-}
-
-#footer .row .col-md-2 #more ul li a:hover {
-  -webkit-text-decoration-color: #ffbb00;
-          text-decoration-color: #ffbb00;
-}
-
-#footer .row .col-md-2 #more ul li a::before {
-  content: '•';
-  color: #ffbb00;
-  font-size: 1.5em;
-  position: relative;
-  right: 3px;
 }
 
 #footer .row .col-md-2 #more ul:last-child {
