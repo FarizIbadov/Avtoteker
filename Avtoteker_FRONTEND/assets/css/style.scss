@@ -5,6 +5,8 @@ input{
     outline: none;
 }
 
+
+
 *{
     font-family: 'Montserrat', sans-serif;
     padding: 0;
@@ -53,6 +55,7 @@ input{
         background: $gray;
 
         .row{
+
             #logo{
                 padding: 10px;
                 a{    
@@ -61,6 +64,7 @@ input{
                     }
                 }
             }
+
 
             #NavBar{
                 ul{
@@ -176,7 +180,7 @@ input{
 
             .Drp{
                 .btn-group{
-                    width:100%;
+                    
                     .dropdown-menu{
                         input{
                             width:70%;
@@ -224,5 +228,28 @@ input{
 }
 
 #footer{
+
     background: $gray;
+
+    .row{
+        #logo1{
+            padding: 10px;
+            a{
+                img{
+                    padding-top:10px;
+                    width:50%;
+                }
+            }
+        }
+    }
+
+    #copy{
+        
+        #copyright{
+            padding:20px;
+            span{
+                text-decoration: underline;
+            }
+        }
+    }
 }

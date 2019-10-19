@@ -131,10 +131,6 @@ input {
   color: #ffbb00;
 }
 
-#main #result .row .Drp .btn-group {
-  width: 100%;
-}
-
 #main #result .row .Drp .btn-group .dropdown-menu input {
   width: 70%;
   margin-left: 15%;
@@ -169,5 +165,22 @@ input {
 
 #footer {
   background: #dbd9d9;
+}
+
+#footer .row #logo1 {
+  padding: 10px;
+}
+
+#footer .row #logo1 a img {
+  padding-top: 10px;
+  width: 50%;
+}
+
+#footer #copy #copyright {
+  padding: 20px;
+}
+
+#footer #copy #copyright span {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
