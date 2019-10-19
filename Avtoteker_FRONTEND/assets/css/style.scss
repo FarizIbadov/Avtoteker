@@ -1,0 +1,150 @@
+$main:rgb(255, 187, 0);
+$gray:rgb(219, 217, 217);
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    
+    #Head{
+        
+        .row{
+            padding:10px;
+            background: $main;
+            
+            #header_contact{
+                font-size: 1.3em;
+                
+                a i,
+                span{            
+                    padding:10px 5px;
+                    color:#000;
+                }
+            }
+
+            #searchbar{
+                
+                input{
+                    margin-top:6px;
+                    border-radius: 100px;
+                    padding-left: 10px;
+                    outline: none;
+                }
+
+                a{
+                    position: relative;
+                    right:30px;
+                    i{
+                        color:#000;
+                    }
+                }
+            }
+        }
+    }
+
+    #head{
+        background: $gray;
+
+        .row{
+            #logo{
+                padding: 10px;
+                a{    
+                    img{
+                        width:50%;
+                    }
+                }
+            }
+
+            #NavBar{
+                ul{
+                    display: flex;
+                    margin:25px 0 0 0;
+                    li{
+
+                        list-style: none;
+                        
+                        padding: 0 20px;
+                        font-size: 1.2em;
+
+                        a{
+                            color:#000;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+#main{
+    
+    
+    #main_carusel{
+        display:flex;
+        background: $gray;
+        
+        .row {
+
+
+            .col-md-4{
+                padding: 1px;
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            img{
+                                width:33%;
+                                margin:0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #searchTire{
+        .between{
+            background: $main;
+            padding:10px;
+        }
+
+        .row{
+
+            .col-md-4{
+                padding: 1px;
+                .Searchbtn{
+                    font-weight: bold;
+                    width: 100%;
+                    height:80px;
+                    background: $gray;
+                    outline: none;
+                    &:hover{
+                        background: $main;
+                        transition: background 0.5s;
+                    }
+                }
+            }
+
+         
+        }
+    }
+
+    #result{
+        background: $gray;
+        .row{
+            .col-md-3{
+                img{
+                    width:25%;
+                    color: $main;
+                }
+            }
+        }
+    }
+}
