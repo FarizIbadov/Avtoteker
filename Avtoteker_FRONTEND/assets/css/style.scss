@@ -1,5 +1,5 @@
 $main:rgb(255, 187, 0);
-$gray:rgb(219, 217, 217);
+$gray:rgb(208, 208, 212);
 
 input{
     outline: none;
@@ -55,10 +55,13 @@ input{
     }
 
     #head{
+    
+        
         background: $gray;
         
         .row{
             
+            box-sizing: border-box;
             .col-md-3{
                 
                 a{    
@@ -70,37 +73,22 @@ input{
 
 
             #NavBar{
+               
                 
-                ul{
-                    padding: 0;
-                    display: flex;
-                    margin:25px 0 0 0;
-                    li{
+                a{
+                    
+                    padding:27px;
+                    color:#000;
+                    text-decoration: none;
 
-                        list-style: none;
+                    &:hover{
+                        background: $main;
+                        color:#000;
+                        transition: all 0.5s;
                         
-                        
-                        font-size: 1.2em;
-                        
-                        
-
-                        a{
-                            
-                            color:#000;
-                            text-decoration: none;
-
-                            &:hover{
-                                background: $main;
-                                color:#000;
-                                transition: all 0.5s;
-                                
-                            }
-
-                            
-                        }
-
-
                     }
+
+                    
                 }
             }
         }
