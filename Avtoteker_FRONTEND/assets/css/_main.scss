@@ -65,23 +65,24 @@
     #result{
         display: none;
 
-            .col-md-1{
-                
-                .btn-group{
-                    width:215px !important;
-                    .dropdown-menu{
-                        input{
-                            width:70%;
-                            margin-left:15%;
-                            margin-top: 10px;
-                            border-radius: 5px;
-                        }
+        
+        background: $gray;
+
+
+        .images{
+            .col-md-3{
+                div{
+                    img{
+                        width:25%;
                     }
                 }
             }
+        }
+
+
 
             
-        }
+    }
 
         #afterpart{
             border-radius: 0 0 10px 10px !important;
@@ -118,7 +119,7 @@
                 }
             }
         }
-    }
+
 
     #Between1{
         
@@ -134,10 +135,7 @@
                 
             }
 
-            p{
-                
-            }
-
+            
         
         }
         

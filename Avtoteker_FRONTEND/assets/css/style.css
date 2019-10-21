@@ -125,39 +125,24 @@ input {
 
 #main #result {
   display: none;
-}
-
-#main #result .row {
   background: #d0d0d4;
 }
 
-#main #result .row .col-md-3 img {
+#main #result .images .col-md-3 div img {
   width: 25%;
-  color: #ffbb00;
 }
 
-#main #result .row .col-md-1 .btn-group {
-  width: 215px !important;
-}
-
-#main #result .row .col-md-1 .btn-group .dropdown-menu input {
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-#main #result #afterpart {
+#main #afterpart {
   border-radius: 0 0 10px 10px !important;
 }
 
-#main #result #afterpart1,
-#main #result #afterpart {
+#main #afterpart1,
+#main #afterpart {
   border-radius: 0;
 }
 
-#main #result #afterpart1 div button,
-#main #result #afterpart div button {
+#main #afterpart1 div button,
+#main #afterpart div button {
   border-radius: 10px;
   font-weight: bold;
   width: 60%;
@@ -166,22 +151,22 @@ input {
   outline: none;
 }
 
-#main #result #afterpart1 div button:hover,
-#main #result #afterpart div button:hover {
+#main #afterpart1 div button:hover,
+#main #afterpart div button:hover {
   background: #ffbb00;
   color: #000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-#main #result #afterpart1 div a,
-#main #result #afterpart div a {
+#main #afterpart1 div a,
+#main #afterpart div a {
   text-decoration: none;
   color: #000;
 }
 
-#main #result #afterpart1 div a:last-child,
-#main #result #afterpart div a:last-child {
+#main #afterpart1 div a:last-child,
+#main #afterpart div a:last-child {
   text-decoration: underline;
 }
 
