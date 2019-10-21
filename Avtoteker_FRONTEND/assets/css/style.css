@@ -132,6 +132,19 @@ input {
   width: 25%;
 }
 
+#main #result .btn {
+  color: #626161;
+}
+
+#main #result .search_prop {
+  padding: 5px;
+  width: 100%;
+}
+
+#main #result .search_prop input {
+  border-radius: 5px;
+}
+
 #main #afterpart {
   border-radius: 0 0 10px 10px !important;
 }
