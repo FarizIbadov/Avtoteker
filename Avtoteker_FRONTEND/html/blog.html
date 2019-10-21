@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Tire</title>
+    <title>Blog</title>
 </head>
 <body>
 <!--------------------------------------------------------------------------------------------------->
     <div id="header">  
         <div class="container-fluid" id="Head">
             <div class="row">
-                <div class="col-md-5" id="header_contact">
+                <div class="col-md-3 offset-md-0" id="header_contact">
                     <a href="https://www.facebook.com/avtoteker.az/" target="blanc"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/avtoteker.az_/" target="blanc"><i class="fab fa-instagram" ></i></a>
                     <a href="https://wa.me/+994509699933" target="blanc"><i class="fab fa-whatsapp"></i></a>
@@ -22,7 +22,7 @@
                     <span id="number">(051) 901 49 99</span>
                 </div>
 
-                <div class="col-md-3 col-sm-4 offset-md-4 offset-sm-4" id="searchbar">
+                <div class="col-md-3 offset-md-6" id="searchbar">
                     <input type="text" placeholder="Search">
                     <a href=""><i class="fas fa-search"></i></a>
                 </div>
@@ -31,78 +31,31 @@
 
         <div class="container-fluid" id="head">
             <div class="row p-0">
-                <div class="col-md-3 offset-md-1 col-sm-2" >
-                    <a href="tires.html"><img id="Logo" src="../assets/logos/Logo.png" alt="LOGO"></a>
+                <div class="col-md-3 offset-md-1 p-1" >
+                    <a href="tires.html"><img src="../assets/logos/Logo.png" alt="LOGO"></a>
                 </div>
 
-                <div class="col-md-7 offset-md-1 col-sm-8" id="NavBar">                    
+                <div class="col-md-7 offset-md-1" id="NavBar">                    
                     <div class="row">
                         <a  href="#searchTire">Tire Search</a></li>
                         <a  href="">Service</a></li>
                         <a  href="">Financing</a></li>
                         <a  href="">Campaigns</a></li>
                         <a  href="">Outlet</a></li>  
+
                         
                     </div>
+                    
                 </div>
 
-                <i id="Toggle_bar" class="fas fa-bars  offset-sm-10 "></i>
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </div>
 <!--------------------------------------------------------------------------------------------------->
     <div class="container" id="main">
 
-        <div id="main_carusel" class="container-fluid mt-5">
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../assets/images/A-class.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/images/mersedes.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/images/mersedes3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../assets/images/A-class.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/images/mersedes.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/images/mersedes3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../assets/images/A-class.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/images/mersedes.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/images/mersedes3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--  -->
 
         <div class="container-fluid" id="searchTire">
             <div class="row between mt-2">
@@ -110,124 +63,99 @@
                     <h3><strong>Choose Tires</strong></h3>
                 </div>
             </div>
-            <div class="row buttons">
-                <div class="col-md-4 col-xs-4"><button data-value="#result" class="Searchbtn">BY TIRE SIZE</button></div>
-                <div class="col-md-4 col-xs-4"><button data-value="#Other" class="Searchbtn">BY CAR MODEL</button></div>
-                <div class="col-md-4 col-xs-4"><button data-value="#Other" class="Searchbtn">BY BRAND</button></div>
+            <div class="row ">
+                <div class="col-md-4"><button data-value="#result" class="Searchbtn">BY TIRE SIZE</button></div>
+                <div class="col-md-4"><button data-value="#Other" class="Searchbtn">BY CAR MODEL</button></div>
+                <div class="col-md-4"><button data-value="#Other" class="Searchbtn">BY BRAND</button></div>
             </div>
             
         </div>
 
-        
         <div class="container-fluid mt-2 active" id="result">
             
-            <div class="row pt-2 images">
+            <div class="row pl-4 pt-2">
                 <div class="col-md-3">
-                    <div class="row"><div class="col-md-12">
-                        <img src="../assets/logos/section-width.png" alt="">
-                    </div>
+                    <img src="../assets/logos/section-width.png" alt="">
+                    <span>Width</span>
+                    
                 </div>
-                    <div class="row pt-1 pb-1">
-                        <div class="col-md-12">
-                            <div>
-                                <div class="btn-group w-100">
-                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Width
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <input type="text">
-                                        <hr>
-                                        <button class="dropdown-item" type="button">Action</button>
-                                        <button class="dropdown-item" type="button">Another action</button>
-                                        <button class="dropdown-item" type="button">Something else here</button>
-                                    </div>
-                                </div>
-                            </div>        
-                        </div>
-                    </div>
-                </div>
-
                 <div class="col-md-3">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="../assets/logos/aspect-ratio.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row pt-1 pb-1">
-                        <div class="col-md-12">
-                            <div class="w-100">
-                                <div class="btn-group w-100">
-                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Width
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <input type="text">
-                                        <hr>
-                                        <button class="dropdown-item" type="button">Action</button>
-                                        <button class="dropdown-item" type="button">Another action</button>
-                                        <button class="dropdown-item" type="button">Something else here</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="../assets/logos/aspect-ratio.png" alt="">
+                    <span>Aspect Ratio</span>
                 </div>
-
                 <div class="col-md-3">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="../assets/logos/diameter.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row pt-1 pb-1">
-                        <div class="col-md-12">
-                            <div class="w-100">
-                                <div class="btn-group w-100">
-                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Width
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <input type="text">
-                                        <hr>
-                                        <button class="dropdown-item" type="button">Action</button>
-                                        <button class="dropdown-item" type="button">Another action</button>
-                                        <button class="dropdown-item" type="button">Something else here</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="../assets/logos/diameter.png" alt="">
+                    <span>Diameter</span>         
                 </div>
-
                 <div class="col-md-3">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="../assets/logos/brands.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row pt-1 pb-1">
-                        <div class="col-md-12">
-                            <div class="w-100">
-                                <div class="btn-group w-100 ">
-                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Width
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <input type="text">
-                                        <hr>
-                                        <button class="dropdown-item" type="button">Action</button>
-                                        <button class="dropdown-item" type="button">Another action</button>
-                                        <button class="dropdown-item" type="button">Something else here</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                    
+                    <img src="../assets/logos/brands.png" alt="">
+                    <span>Brand</span>
+                </div>
             </div>
-        
-        
-            <div class="row pt-3 pb-3" id="afterpart">
+            
+            
+
+            <div class="row pb-1 pl-4">
+                <div class="col-md-1 offset-md-0">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Width
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <input type="text">
+                            <hr>
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 offset-md-2">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Aspect-ratio
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                                <input type="text">
+                                <hr>
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 offset-md-2">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Diameter
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                                <input type="text">
+                                <hr>
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 offset-md-2">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Brand
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <input type="text">
+                            <hr>
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-3 pb-3" id="afterpart1">
                 <div class="col-md-4 text-left mt-4"><a href="">Clear All</a></div>
                 <div class="col-md-4 text-center mt-3"><button>Search</button></div>
                 <div class="col-md-4 text-right mt-4"><a href="#number"><i class="far fa-question-circle"></i>How to find your tire size</a></div>
@@ -239,8 +167,68 @@
             <h1>Coming Soon</h1>
         </div>
 
+        <div class="container-fluid mt-1 p-5" id="Between1">
+            <div class="row">
+                <img src="../assets/images/service-1.png" alt="">
+                <img src="../assets/images/service-1.png" alt=""> 
+                <img src="../assets/images/service-1.png" alt=""> 
+                <img src="../assets/images/service-1.png" alt="">  
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit nostrum aliquid quo similique saepe sapiente laborum nulla harum nesciunt ut, molestias iusto? Cupiditate, similique voluptatibus nulla quam deleniti, veritatis alias asperiores quae voluptates ducimus esse! Saepe quidem quo inventore! Quae corporis consequuntur quidem voluptates non harum cum unde labore nam facere, consectetur commodi tempora cumque nobis laborum officiis accusantium voluptatem qui. Assumenda quos quaerat deserunt excepturi numquam veritatis voluptates ea dicta repellendus voluptatem, magni sit ex beatae aliquam tempora labore sint eveniet commodi a ad? Magni recusandae nobis ipsum saepe facere exercitationem modi cum ratione voluptatibus tempore veritatis dolore voluptas, deleniti hic dolores asperiores autem, voluptates maiores fugiat ab non magnam accusantium praesentium. Consequuntur inventore libero suscipit voluptatibus illo voluptate. Quis enim est voluptates non, temporibus aspernatur corporis fugiat dolorem maiores quia velit ab modi, nisi tempora doloremque deserunt eum. Repudiandae dicta, nisi fugiat porro modi quis provident non iusto, enim consequatur et. Adipisci ut, expedita dolorum similique nostrum pariatur nulla. Facere quasi commodi dolorum quas. Ab impedit quibusdam natus odit saepe expedita numquam quas quasi incidunt, reiciendis omnis fugiat reprehenderit quod minima, quae cum adipisci? Suscipit sequi harum quas facilis aliquam nemo. Voluptatum, culpa labore. Eum, voluptates doloremque delectus, aliquam quae sed tenetur soluta facere assumenda, iusto nesciunt. Hic iste libero, quod eius distinctio quisquam voluptates quo neque explicabo repudiandae enim rem cupiditate culpa harum porro excepturi quae expedita officia quam aperiam nulla quidem? A, sunt deserunt! Iste aliquid ratione ducimus laudantium! Consequuntur sunt totam saepe velit quidem? Facere iste unde at reiciendis dignissimos velit? Sed iusto totam accusamus facere eligendi nostrum fugiat vero blanditiis? Atque tempore reprehenderit ipsa itaque! Ea porro nulla natus soluta, cum beatae neque explicabo harum debitis. Hic ipsam optio, esse, voluptates eos beatae temporibus delectus maiores, a adipisci similique quo quidem harum architecto.</p>
+            </div>
+        </div>
+        <div id="main_carusel" class="container-fluid ">
+            <div class="row mt-2">
+                <div class="col-md-4 col-sm-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/images/A-class.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/mersedes.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/mersedes3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/images/A-class.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/mersedes.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/mersedes3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="container-fluid mt-1" id="main_cor">
+                <div class="col-md-4 col-sm-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/images/A-class.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/mersedes.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/mersedes3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container-fluid mt-1" id="main_cor">
             <div class="row">
                 <div class="col-md-6">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -258,7 +246,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div id="footer" class="container-fluid mt-5">

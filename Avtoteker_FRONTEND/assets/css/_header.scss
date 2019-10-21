@@ -1,0 +1,95 @@
+#header{
+    
+    #Head{
+        
+        .row{
+            padding:10px;
+            background: $main;
+            
+            #header_contact{
+                font-size: 1.3em;
+                
+                a i,
+                span{            
+                    padding:10px 1px;
+                    color:#000;
+                }
+            }
+
+            #searchbar{
+                
+                input{
+                    margin-top:6px;
+                    border-radius: 100px;
+                    padding-left: 10px;
+                    outline: none;
+                }
+
+                a{
+                    position: relative;
+                    right:30px;
+                    i{
+                        color:#000;
+                    }
+                }
+            }
+        }
+    }
+
+    #head{
+    
+        
+        background: $gray;
+        
+        .row{
+            
+            box-sizing: border-box;
+            .col-md-3{
+                
+                a{    
+                    img{
+                        padding-top:5px;
+                        width:60%;
+                    }
+                }
+            }
+
+
+            #NavBar{
+               
+                .row{
+                    a{
+                        
+                        padding:27px;
+                        color:#000;
+                        text-decoration: none;
+
+                        &:hover{
+                            background: $main;
+                            color:#000;
+                            transition: all 0.5s;
+                            
+                        }
+
+                        
+                    }
+
+                    
+
+                }
+                
+            }
+
+            i{
+                display: none;
+            }
+
+            
+        }
+
+        
+
+    }
+
+}
+

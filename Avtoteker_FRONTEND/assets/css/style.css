@@ -12,6 +12,11 @@ input {
   margin: 0;
 }
 
+.yellow_hr {
+  border: 2px solid #ffbb00;
+  width: 15%;
+}
+
 #header #Head .row {
   padding: 10px;
   background: #ffbb00;
@@ -53,27 +58,31 @@ input {
 }
 
 #header #head .row .col-md-3 a img {
-  width: 50%;
+  padding-top: 5px;
+  width: 60%;
 }
 
-#header #head .row #NavBar a {
+#header #head .row #NavBar .row a {
   padding: 27px;
   color: #000;
   text-decoration: none;
 }
 
-#header #head .row #NavBar a:hover {
+#header #head .row #NavBar .row a:hover {
   background: #ffbb00;
   color: #000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
+#header #head .row i {
+  display: none;
+}
+
 #main #main_carusel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #d0d0d4;
 }
 
 #main #main_carusel .row .col-md-4 {
@@ -139,9 +148,15 @@ input {
 }
 
 #main #result #afterpart {
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px !important;
 }
 
+#main #result #afterpart1,
+#main #result #afterpart {
+  border-radius: 0;
+}
+
+#main #result #afterpart1 div button,
 #main #result #afterpart div button {
   border-radius: 10px;
   font-weight: bold;
@@ -151,6 +166,7 @@ input {
   outline: none;
 }
 
+#main #result #afterpart1 div button:hover,
 #main #result #afterpart div button:hover {
   background: #ffbb00;
   color: #000;
@@ -158,20 +174,38 @@ input {
   transition: all 0.5s;
 }
 
+#main #result #afterpart1 div a,
 #main #result #afterpart div a {
   text-decoration: none;
   color: #000;
 }
 
+#main #result #afterpart1 div a:last-child,
 #main #result #afterpart div a:last-child {
   text-decoration: underline;
 }
 
+#main #Between1 {
+  float: left;
+  border: 1px solid #d0d0d4;
+  background: #fff;
+}
+
+#main #Between1 .row {
+  float: left;
+}
+
+#main #Between1 .row img {
+  padding: 1px;
+  width: 25%;
+}
+
 #main #Other {
+  border-radius: 0 0 10px 10px;
   display: none;
   background: #d0d0d4;
   padding: 10px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0;
   text-align: center;
 }
 
@@ -264,8 +298,46 @@ input {
   text-decoration: underline;
 }
 
-.yellow_hr {
-  border: 2px solid #ffbb00;
-  width: 15%;
+@media screen and (max-width: 1095px) {
+  #header #NavBar {
+    display: none;
+  }
+  #header #searchbar a {
+    left: 170px;
+    bottom: 26px;
+  }
+  #header #Toggle_bar {
+    display: block !important;
+    position: relative;
+    bottom: 25px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ffbb00;
+  }
+  #header #Logo {
+    position: relative;
+    top: 20px;
+  }
+  #main .buttons {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  #main .buttons .col-xs-4 {
+    padding: 1px;
+    width: 33.3% !important;
+  }
+  #main #result .dropdowns div button {
+    width: 100% !important;
+  }
+  #footer input[type=text],
+  #footer input[type=email] {
+    width: 100%;
+    position: relative;
+    right: 1% !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+#footer{
+
+    background: $gray;
+
+    .row{
+        .col-md-3{
+            padding: 10px;
+            a{
+                img{
+                    // padding: 10px;
+                    width:50% ;
+                }
+            }
+
+            
+
+            p{
+                font-size:0.8em;
+            }
+
+            div{
+                a{
+                    
+                    padding: 10px 5px;
+                    i{
+                        color: #000;
+                        font-size: 2em;
+                    }
+                }
+
+                img{
+                    width:50px;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+        .col-md-2{
+
+            #more{
+                display: flex;
+                ul{
+                    li{
+                        margin:3px;
+                        
+                        
+                        a{
+                            color: #000;
+
+                           
+
+                            
+                        }
+
+                        
+                    }
+                    
+                }
+
+                ul:last-child{
+                    margin-left:30px;
+                }
+            }
+
+            input[type=text],
+            input[type=email]{
+                margin:3px;
+                padding: 5px;
+                border-radius: 10px;
+            }
+
+            
+
+            
+            span{
+                font-size:0.83em;
+                position: relative;
+                right:1%;
+            }
+
+            button{
+                font-weight: bold;
+                width: 100%;
+                height:40px;
+                
+                background: $main;
+                outline: none;
+                &:hover{
+                
+                    color:#fff;
+                    transition: all 0.5s;
+
+                }
+            }
+        }
+    }
+
+    #copy{
+        border-top:1px solid #fff;
+        background: #313131;
+        #copyright{
+            color:#fff;
+            padding:20px;
+            span{
+                text-decoration: underline;
+            }
+        }
+    }
+}

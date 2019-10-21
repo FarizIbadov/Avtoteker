@@ -1,0 +1,72 @@
+@media screen and (max-width:1095px){
+    
+    #header{
+        #NavBar{
+            display: none;
+        }
+    
+        #searchbar{
+            a{
+                left:170px;
+                bottom:26px;
+            
+            }
+        }
+    
+        #Toggle_bar{
+             display: block !important;
+             position: relative;
+             bottom:25px;
+             font-size: 1.5em;
+             border:2px solid black;
+             padding: 10px;
+             border-radius: 5px;
+             cursor: pointer; 
+             background: $main;
+        }
+    
+        #Logo{
+            position: relative;
+            top:20px;
+            
+        }
+    }
+
+    #main{
+        .buttons{
+            display: flex !important;
+            .col-xs-4{
+                padding: 1px;
+                width:33.3% !important;
+            }
+    
+         
+        }
+    
+        #result{
+            .dropdowns{
+                div{
+                    button{
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer{
+        input[type=text],
+        input[type=email]{
+            width:100%;
+            position: relative;
+            right:1% !important;
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    #result{
+
+        
+    }
+}
