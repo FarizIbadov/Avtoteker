@@ -70,12 +70,14 @@
             }
 
             
-
+            input[type=checkbox]{
+                display: inline-block;
+            }
             
             span{
                 font-size:0.83em;
-                position: relative;
-                right:3%;
+                display: inline-block;
+                margin-right:1%;
             }
 
             button{

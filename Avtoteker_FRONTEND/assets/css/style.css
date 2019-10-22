@@ -260,10 +260,14 @@ input {
   border-radius: 10px;
 }
 
+#footer .row .col-md-2 input[type=checkbox] {
+  display: inline-block;
+}
+
 #footer .row .col-md-2 span {
   font-size: 0.83em;
-  position: relative;
-  right: 3%;
+  display: inline-block;
+  margin-right: 1%;
 }
 
 #footer .row .col-md-2 button {
