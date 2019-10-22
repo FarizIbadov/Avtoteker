@@ -11,3 +11,5 @@
     <a href="tel:+994509699933"><i class="fas fa-phone-alt"></i></a>
     <span id="number">(051) 901 49 99</span>
 </div>
+
+rgb(255, 187, 0)
