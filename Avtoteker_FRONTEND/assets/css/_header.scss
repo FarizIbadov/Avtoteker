@@ -3,31 +3,37 @@
     #Head{
         
         .row{
-            padding:10px;
+            
             background: $main;
             
             #header_contact{
                 font-size: 1.3em;
                 
-                a i,
-                span{            
-                    padding:10px 1px;
-                    color:#000;
+                .row{
+                    div{
+                        a i,
+                        span{            
+                            
+                            color:#000;
+                        }
+                    }
                 }
             }
 
             #searchbar{
                 
                 input{
-                    margin-top:6px;
+                    
                     border-radius: 100px;
-                    padding-left: 10px;
+                    
+                    padding-left:2%;
                     outline: none;
                 }
 
                 a{
                     position: relative;
-                    right:30px;
+                    
+                    bottom:25px;
                     i{
                         color:#000;
                     }
