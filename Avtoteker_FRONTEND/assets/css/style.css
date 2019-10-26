@@ -14,6 +14,7 @@ input {
 
 .yellow_hr {
   border: 2px solid #ffbb00;
+  background: #ffbb00;
   width: 15%;
 }
 
@@ -231,6 +232,7 @@ input {
 
 #footer .infi .about {
   padding: 10px;
+  margin-left: 3%;
 }
 
 #footer .infi .about a img {
