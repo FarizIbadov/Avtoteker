@@ -352,12 +352,6 @@ input {
   #main #result .dropdowns div button {
     width: 100% !important;
   }
-  #footer input[type=text],
-  #footer input[type=email] {
-    width: 100%;
-    position: relative;
-    right: 1% !important;
-  }
 }
 
 @media screen and (max-width: 768px) {
