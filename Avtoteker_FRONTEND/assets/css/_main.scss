@@ -43,6 +43,8 @@
                     height:80px;
                     background: $gray;
                     outline: none;
+                    padding:1px;
+                    box-sizing: border-box;
                     &:hover{
                         background: $main;
                         color:#fff;

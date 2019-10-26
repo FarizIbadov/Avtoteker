@@ -11,6 +11,7 @@
 </head>
 <body>
 <!--------------------------------------------------------------------------------------------------->
+
     <div id="header">  
         <div class="container-fluid " id="Head">
             
@@ -36,7 +37,7 @@
                     </div>
 
                     <div class="col-md-3 offset-md-4" id="searchbar">
-                        <div class="row p-1">
+                        <div class="row">
                             <div class="col-md-12 text-right ">
                                 <form method="POST">
                                     <input class="w-100" type="text" placeholder="Search" name="object">
@@ -50,23 +51,36 @@
         </div>
 
         <div class="container-fluid" id="head">
-            <div class="row p-0">
-                <div class="col-md-3 offset-md-1 col-sm-2" >
-                    <a href="tires.html"><img id="Logo" src="../assets/logos/Logo.png" alt="LOGO"></a>
+            <div class="row">
+                <div class="col-lg-2 offset-lg-1 logopart">
+                   <div class="row res p-1">
+                       <div class="col-lg-12  res1">
+                        <a href="tires.html"><img id="Logo"  src="../assets/logos/Logo.png" alt="LOGO"></a>
+                       </div>
+                   </div>
                 </div>
 
-                <div class="col-md-7 offset-md-1 col-sm-8" id="NavBar">                    
-                    <div class="row">
-                        <a  href="#searchTire">Tire Search</a></li>
-                        <a  href="">Service</a></li>
-                        <a  href="">Financing</a></li>
-                        <a  href="">Campaigns</a></li>
-                        <a  href="">Outlet</a></li>  
-                        
+                <div class="col-lg-1 col-sm-3 icon">
+                    <div class="row res2">
+                        <div class="col-lg-4 icon1">
+                            <i class="fas fa-chevron-circle-down p-4"></i> 
+                        </div>
                     </div>
                 </div>
-
-                <i id="Toggle_bar" class="fas fa-bars  offset-sm-10 "></i>
+                
+                <div class="col-lg-7 offset-lg-1 navs">
+                    <div class="row">
+                        <div class="col-lg-12 navi">
+                            <div class="row navs1">
+                                <a  href="#searchTire">Tire Search</a>
+                                <a  href="">Service</a>
+                                <a  href="">Financing</a>
+                                <a  href="">Campaigns</a>
+                                <a  href="">Outlet</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -140,12 +154,12 @@
 
         
         <div class="container-fluid mt-2 active" id="result">
-            <form method="POST">
+            
                 <div class="row pt-2 images">
                     <div class="col-md-3">
                         <div class="row"><div class="col-md-12">
                             <img src="../assets/logos/section-width.png" alt="">
-                            <span>Width</span>
+                            <label>Width</label>
                         </div>
                     </div>
                         <div class="row pt-1 pb-1">
@@ -173,7 +187,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <img src="../assets/logos/aspect-ratio.png" alt="">
-                                <span>Aspect-ratio</span>
+                                <label>Aspect-ratio</label>
                             </div>
                         </div>
                         <div class="row pt-1 pb-1">
@@ -186,9 +200,9 @@
                                         <div class="dropdown-menu dropdown-menu-right search_prop">
                                             <input type="text"  class="w-100" name="aspect-ratio">
                                             <hr>
-                                            <button class="dropdown-item" type="button">65</button>
-                                            <button class="dropdown-item" type="button">60</button>
-                                            <button class="dropdown-item" type="button">55</button>
+                                            <button type="submit" class="dropdown-item" type="button">65</button>
+                                            <button type="submit" class="dropdown-item" type="button">60</button>
+                                            <button type="submit" class="dropdown-item" type="button">55</button>
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +214,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <img src="../assets/logos/diameter.png" alt="">
-                                <span>Diameter</span>
+                                <label>Diameter</label>
                             </div>
                         </div>
                         <div class="row pt-1 pb-1">
@@ -227,7 +241,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <img src="../assets/logos/brands.png" alt="">
-                                <span>Brands</span>
+                                <label>Brands</label>
                             </div>
                         </div>
                         <div class="row pt-1 pb-1">
@@ -250,7 +264,7 @@
                         </div>
                     </div>                    
                 </div>
-            </form>
+            
         
         
             <div class="row pt-3 pb-3" id="afterpart">
@@ -289,13 +303,13 @@
 
     <div id="footer" class="container-fluid mt-5">
 
-        <div class="row pt-3">
-            <div class="col-md-3 offset-md-1">
+        <div class="row pt-3 infi">
+            <div class="col-lg-3 offset-lg-1 col-md-5 offset-md-0 col-sm-8 about">
                 <a href="tires.html"><img src="../assets/logos/Logo.png" alt=""></a>
                 <hr class="yellow_hr">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quisquam animi deserunt ducimus possimus eos temporibus pariatur quae at. Doloribus sint consequuntur reprehenderit? Necessitatibus ipsa, quisquam beatae totam quam quis.</p>
 
-                <div>
+                <div col>
                     <a href="https://www.facebook.com/avtoteker.az/" target="blanc"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/avtoteker.az_/" target="blanc"><i class="fab fa-instagram" ></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
@@ -313,11 +327,11 @@
                 </div>
             </div>
 
-            <div class="col-md-2 offset-md-1 mt-3">
+            <div class="col-lg-3 offset-lg-1 mt-4 more">
                 <h3>More:</h3>
                 <hr class="yellow_hr">
 
-                <div id="more">
+                <div id="more" >
                     <ul>
                         <li><a href="#">Our company</a></li>
                         <li><a href="#">Our contacts</a></li>
@@ -338,14 +352,17 @@
                 </div>
             </div>
 
-            <div class="col-md-2 offset-md-2 mt-4">
-                <h3>Subscribe & Get Offs:</h3>
-                <hr class="yellow_hr">
-                <input type="text" placeholder="Your name">
-                <input type="email" placeholder="Your email">
-                <input type="checkbox">
-                <span>I agree to get promotional contents</span>
-                <button class="mt-2">I am in</button>
+            <div class="col-lg-2 offset-lg-1 mt-4 more1">
+                <form method="POST">
+                    <h3>Subscribe & Get Offs:</h3>
+                    <hr class="yellow_hr">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email">
+                    <div class="checkbox mt-1">
+                        <input type="checkbox" class="mt-1"><span>I agree to get promotional contents</span>
+                    </div>   
+                    <input type="submit" class="mt-2" value="I am in">
+                </form>
             </div>
 
             

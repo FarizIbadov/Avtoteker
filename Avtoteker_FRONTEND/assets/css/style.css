@@ -17,6 +17,11 @@ input {
   width: 15%;
 }
 
+#header {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
 #header #Head .row {
   background: #ffbb00;
 }
@@ -50,31 +55,43 @@ input {
   background: #d0d0d4;
 }
 
+#header #head .logopart .res .res1 {
+  margin-top: 8px;
+}
+
+#header #head .logopart .res .res1 a #Logo {
+  width: 230px;
+  height: 80px;
+}
+
+#header #head .icon .res2 .icon1 i {
+  font-size: 3em;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  display: none;
+}
+
+#header #head .res .logop a #Logo {
+  width: 200px;
+}
+
 #header #head .row {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-#header #head .row .col-md-3 a img {
-  padding-top: 5px;
-  width: 60%;
-}
-
-#header #head .row #NavBar .row a {
-  padding: 27px;
+#header #head .row .navs .navs1 a {
+  padding: 40px 15px;
   color: #000;
   text-decoration: none;
 }
 
-#header #head .row #NavBar .row a:hover {
+#header #head .row .navs .navs1 a:hover {
   background: #ffbb00;
   color: #000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-}
-
-#header #head .row i {
-  display: none;
 }
 
 #main #main_carusel {
@@ -107,6 +124,9 @@ input {
   height: 80px;
   background: #d0d0d4;
   outline: none;
+  padding: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #main #searchTire .row .col-md-4 .Searchbtn:hover {
@@ -209,68 +229,83 @@ input {
   background: #d0d0d4;
 }
 
-#footer .row .col-md-3 {
+#footer .infi .about {
   padding: 10px;
 }
 
-#footer .row .col-md-3 a img {
+#footer .infi .about a img {
   width: 50%;
 }
 
-#footer .row .col-md-3 p {
+#footer .infi .about p {
   font-size: 0.8em;
 }
 
-#footer .row .col-md-3 div a {
+#footer .infi .about div a {
   padding: 10px 5px;
 }
 
-#footer .row .col-md-3 div a i {
+#footer .infi .about div a i {
   color: #000;
   font-size: 2em;
 }
 
-#footer .row .col-md-3 div img {
+#footer .infi .about div img {
   width: 50px;
   border-radius: 20px;
 }
 
-#footer .row .col-md-2 #more {
+#footer .infi .more {
+  width: 50%;
+}
+
+#footer .infi .more #more {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#footer .row .col-md-2 #more ul li {
-  margin: 3px;
+#footer .infi .more #more ul {
+  margin-left: 5%;
 }
 
-#footer .row .col-md-2 #more ul li a {
+#footer .infi .more #more ul li {
+  width: 150px;
+  margin-bottom: 3px;
+}
+
+#footer .infi .more #more ul li a {
   color: #000;
 }
 
-#footer .row .col-md-2 #more ul:last-child {
+#footer .infi .more #more ul:last-child {
   margin-left: 30px;
 }
 
-#footer .row .col-md-2 input[type=text],
-#footer .row .col-md-2 input[type=email] {
+#footer .infi .more1 form input[type=text],
+#footer .infi .more1 form input[type=email] {
   margin: 3px;
   padding: 5px;
   border-radius: 10px;
+  width: 100%;
 }
 
-#footer .row .col-md-2 input[type=checkbox] {
-  display: inline-block;
+#footer .infi .more1 form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#footer .row .col-md-2 span {
+#footer .infi .more1 form .checkbox input[type=checkbox] {
+  float: left;
+}
+
+#footer .infi .more1 form span {
   font-size: 0.83em;
-  display: inline-block;
-  margin-right: 1%;
+  margin-left: 1%;
 }
 
-#footer .row .col-md-2 button {
+#footer .infi .more1 form input[type=submit] {
   font-weight: bold;
   width: 100%;
   height: 40px;
@@ -278,7 +313,7 @@ input {
   outline: none;
 }
 
-#footer .row .col-md-2 button:hover {
+#footer .infi .more1 form input[type=submit]:hover {
   color: #fff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -298,28 +333,12 @@ input {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1095px) {
-  #header #NavBar {
+@media screen and (max-width: 1023px) {
+  #header #head .row .navs .row .navi .navs1 {
     display: none;
   }
-  #header #searchbar a {
-    left: 170px;
-    bottom: 26px;
-  }
-  #header #Toggle_bar {
-    display: block !important;
-    position: relative;
-    bottom: 25px;
-    font-size: 1.5em;
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: #ffbb00;
-  }
-  #header #Logo {
-    position: relative;
-    top: 20px;
+  #header #head .row .navs .row .navi .navs1 a {
+    display: block;
   }
   #main .buttons {
     display: -webkit-box !important;
@@ -338,12 +357,6 @@ input {
     width: 100%;
     position: relative;
     right: 1% !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #footer #more ul {
-    margin-left: 3%;
   }
 }
 /*# sourceMappingURL=style.css.map */

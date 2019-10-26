@@ -1,35 +1,29 @@
-@media screen and (max-width:1095px){
+@media screen and (max-width:1023px){
     
     #header{
-        #NavBar{
-            display: none;
-        }
-    
-        #searchbar{
-            a{
-                left:170px;
-                bottom:26px;
-            
+        
+        
+        
+
+        #head{
+            .row{
+                .navs{
+                    .row{
+                        .navi{
+                            .navs1{
+                                display: none;
+                                a{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
+        
     
-        #Toggle_bar{
-             display: block !important;
-             position: relative;
-             bottom:25px;
-             font-size: 1.5em;
-             border:2px solid black;
-             padding: 10px;
-             border-radius: 5px;
-             cursor: pointer; 
-             background: $main;
-        }
-    
-        #Logo{
-            position: relative;
-            top:20px;
-            
-        }
+        
     }
 
     #main{
@@ -61,15 +55,11 @@
             position: relative;
             right:1% !important;
         }
+
+        
     }
 }
 
 @media screen and (max-width:768px){
-    #footer{
-        #more{
-            ul{
-                margin-left:3%;
-            }
-        }
-    }
+   
 }

@@ -13,3 +13,29 @@
 </div>
 
 rgb(255, 187, 0)
+
+<div class="row res">
+    <div class="col-lg-3 logop">
+        <a href="tires.html"><img id="Logo" src="../assets/logos/Logo.png" alt="LOGO"></a>
+    </div>
+    <div class="col-lg-4 icon">
+        <i class="fas fa-chevron-circle-down"></i> 
+    </div>
+</div>
+
+
+
+
+
+<div class="col-md-7 offset-md-1 col-sm-8" id="NavBar">                    
+    <div class="row">
+        <a  href="#searchTire">Tire Search</a></li>
+        <a  href="">Service</a></li>
+        <a  href="">Financing</a></li>
+        <a  href="">Campaigns</a></li>
+        <a  href="">Outlet</a></li>  
+        
+    </div>
+</div>
+
+<i id="Toggle_bar" class="fas fa-bars  offset-sm-10 "></i>

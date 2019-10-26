@@ -1,5 +1,5 @@
 #header{
-    
+    position: sticky !important;
     #Head{
         
         .row{
@@ -46,27 +46,65 @@
     
         
         background: $gray;
-        
-        .row{
-            
-            box-sizing: border-box;
-            .col-md-3{
-                
-                a{    
-                    img{
-                        padding-top:5px;
-                        width:60%;
+
+        .logopart{
+            .res{
+                .res1{
+                   
+                    margin-top:8px;
+                    a{
+                        
+                        #Logo{
+                            
+                            width:230px;
+                            height:80px;
+                        }
                     }
                 }
             }
+        }
 
-
-            #NavBar{
-               
-                .row{
-                    a{
+        .icon{
+            .res2{
+                .icon1{
+                    i{
                         
-                        padding:27px;
+                        font-size: 3em;
+                        color:#000;
+                        text-decoration: none;
+                        cursor: pointer;
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .res{
+            
+            .logop{
+                
+                a{   
+
+                    #Logo{
+                        
+                        width:200px  ;
+                    }
+                }
+            }
+            
+            
+            
+        }
+
+        .row{
+            
+            box-sizing: border-box;            
+
+            .navs{
+                .navs1{
+                    
+                    a{
+                        padding:40px 15px;                      
                         color:#000;
                         text-decoration: none;
 
@@ -76,26 +114,11 @@
                             transition: all 0.5s;
                             
                         }
-
-                        
-                    }
-
-                    
-
+                    } 
+                                
                 }
-                
-            }
-
-            i{
-                display: none;
-            }
-
-            
+            }    
         }
-
-        
-
     }
-
 }
 
