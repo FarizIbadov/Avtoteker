@@ -230,6 +230,10 @@ input {
   background: #d0d0d4;
 }
 
+#footer .about {
+  margin-left: 1%;
+}
+
 #footer .infi .about {
   padding: 10px;
   margin-left: 3%;
