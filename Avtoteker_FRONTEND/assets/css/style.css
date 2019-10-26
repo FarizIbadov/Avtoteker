@@ -279,7 +279,7 @@ input {
 }
 
 #footer .infi .more #more ul:last-child {
-  margin-left: 30px;
+  padding-left: 10%;
 }
 
 #footer .infi .more1 form input[type=text],
